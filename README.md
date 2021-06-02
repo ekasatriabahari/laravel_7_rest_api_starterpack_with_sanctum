@@ -22,6 +22,8 @@ Clone or Download as ZIP this repository and enter to your project folder name (
 composer update
 ```
 
+Import [Master Database](https://github.com/ekasatriabahari/laravel_7_rest_api_starterpack_with_sanctum/blob/master/laravel_api_starterpack.sql) into your Database Server.
+
 Make sure you always use Resources to send output array you'd like to be shown. And check route paths to be protected in the middleware sanctum section.
 
 It's free to be developed, just give me 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 as much as you can mate!
