@@ -24,7 +24,13 @@ composer update
 
 Import [Master Database](https://github.com/ekasatriabahari/laravel_7_rest_api_starterpack_with_sanctum/blob/master/laravel_api_starterpack.sql) into your Database Server.
 
-For the protected routes make sure you set Bearer <token> in your header from login route.
+Show all route lists with this command.
+
+```sh
+php artisan route:list
+```
+
+For the protected routes make sure you set Bearer `<token>` in your header from login route.
 
 Make sure you always use Resources to send output array you'd like to be shown. And check route paths to be protected in the middleware sanctum section.
 
